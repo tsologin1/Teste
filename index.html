@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Para vOCê em SP</title>
+</head>
+<body>
+
+<!--- Navegação Desktop --------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <nav class="ocultar">
+    <ul>
+      <div class="navegacao">
+        <li><a href="#" class="mymenu" title="Sobre">Início</a></li>
+        <li><a href="#" class="mymenu" title="Portfolio">Contato</a></li>
+        <li><a href="#" class="mymenu" title="Contato">Newsletter</a></li>
+      </div>
+
+      <form>
+        <input type="text" placeholder="Pesquisar..." />
+        <input type="submit" value="Pesquisar"  class="efeito">
+      </form>
+    </ul>
+  </nav>
+
+<!--- Navegação Mobile ---------------------------------------------------------------------------------------------------------------------------------------------------------->  
+
+<nav id="responsive-nav" class="ocultardesktop">      <!-- -- REVER: OS IDS ------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <div class="responsive-menu-container">
+
+    <div class="responsive-logo">
+      <a href="#" class="titulo">Para você em SP</a>
+    </div>
+
+    <div class="responsive-hamburger" onclick="toggleResponsiveMenu()">&#9776;</div>
+
+      <ul class="responsive-menu">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+
+    </div>
+
+  </nav>
+
+<!--- Banner Mobile ------------------------------------------------------------------------------------------------------------------------------------------------------------->  
+
+  <div id="bannermobile"  class="ocultardesktop">  <!------ REVER: OS IDS ------------------------------------------------------------------------------------------------------------------------------------------------------------>
+    <img src="sp11.png" alt="" id="bannerimg1" class="ocultardesktop">
+  </div>
+
+<!--- Banner Desktop ------------------------------------------------------------------------------------------------------------------------------------------------------------>  
+
+  <div id="bannerdesktop">
+    <img src="sp.png" alt="" id="bannerimg2" class="ocultar">
+  </div>
+
+<!--- Menu colorido Mobile ------------------------------------------------------------------------------------------------------------------------------------------------------>  
+
+  <div>
+    <ul class="menucolorido" id="menucolorido">   <!------ REVER: OS IDS ------------------------------------------------------------------------------------------------------------------------------------------------------------>
+      <li id="ocultar1" class="menucolorido2">Gastronomia</li>
+      <li id="ocultar2" class="menucolorido2">Cultura & Arte</li>
+      <li id="ocultar3" class="menucolorido2">Natureza & Bem-Estar</li>
+      <li id="ocultar4" class="menucolorido2">Dicas Locais</li>
+      <li id="ocultar5" class="menucolorido2">Agenda SP</li>
+    </ul>
+  </div>
+
+<!--- Conteúdo para Desktop ----------------------------------------------------------------------------------------------------------------------------------------------------->  
+
+  <main class="ocultar" id="conteudodesktop" style="margin: 100px;">  <!------ REVER: OS IDS ------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+    <div class="conteudodesktop2">
+      
+      <div class="conteudodesktop3" >
+
+        <div class="conteudodesktop4" >
+          
+          <img src="parque01.png" alt="" class="imgparque">
+          <div class="espacamento">
+            <h1>10 parques para conhecer em São Paulo</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At dignissimos incidunt minima deserunt optio commodi quo fugiat veritatis ullam dicta. Omnis illum dignissimos, tempore voluptatem dicta laborum recusandae</p>
+          </div>
+          
+        </div>
+
+        <div class="conteudodesktop5">
+  
+          <img src="museuipiranga.png" alt="" class="imgmuseu">
+          <div class="espacamento">
+            <h1>Melhores museus de São Paulo</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At dignissimos incidunt minima deserunt optio commodi quo fugiat veritatis ullam dicta. Omnis illum dignissimos, tempore voluptatem dicta laborum recusandae voluptate.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+<!--- Artigo Popular Post para Desktop ------------------------------------------------------------------------------------------------------------------------------------------>  
+
+    <div class="conteudodesktop6">
+
+    <article class="artigodesktop" >
+      
+        <div class="popular-posts">
+
+          <h3>Popular Posts</h3>
+    
+          <div class="post">
+            <img src="yoga.PNG" alt="Sweaters">
+            <div class="post-content">
+              <h4>O Que Fazer na Cidade Neste Final de Semana</h4>
+              <p>Lorem ipsum dolor sit amet consectetur...</p>
+            </div>
+          </div>
+
+          <div class="post">
+            <img src="cafe.jpg" alt="Denim">
+            <div class="post-content">
+              <h4>Delícias e Charme: Cafés em São Paulo Perfeitos para um Momento de Pausa</h4>
+              <p>Lorem ipsum dolor sit amet consectetur...</p>
+          </div>
+
+        </div>
+
+        <div class="post">
+          <img src="zen.png" alt="Workshop">
+          <div class="post-content">
+            <h4>Virada Zen, como adquirir seu ingresso gratuitamente</h4>
+            <p>Lorem ipsum dolor sit amet consectetur...</p>
+          </div>
+        </div>
+
+        <div class="post">
+          <img src="orquestra.jpg" alt="Trends">
+          <div class="post-content">
+            <h4>Como assistir a Orquestra Sinfônica do Estado de São Paulo gratuitamente</h4>
+            <p>Lorem ipsum dolor sit amet consectetur...</p>
+          </div>
+        </div>  
+
+    </div>
+  
+    </article>
+
+<!--- Artigo de inscrição para Desktop ------------------------------------------------------------------------------------------------------------------------------------------>  
+  
+    <article class="conteudodesktop7">
+        
+      <div class="subscribe-box">
+      
+        <h3>Inscrição</h3>
+        
+        <div class="subscribe-content">
+          <p>Insira seu e-mail abaixo e receba notificações sobre as últimas postagens do blog.</p>
+          <input type="email" placeholder="E-mail">
+          <button>Inscrever</button>
+        </div>
+
+      </div>
+      
+    </article>
+
+    </div>
+
+  </main>
+
+<!---  Menu Opções para Mobile -------------------------------------------------------------------------------------------------------------------------------------------------->  
+
+  <div id="conteudomobile" class="ocultardesktop">   <!------ REVER: OS IDS ------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+  <select id="conteudomobile2" class="ocultardesktop">
+    <option value="op1" >Pots diversos</option>
+    <option value="op1">Dicas Locais</option>
+    <option value="op2">Agenda SP</option>
+    <option value="op3">Gastronomia</option>
+    <option value="op3">Cultura & Arte</option>
+    <option value="op3">Natureza & Bem-Estar</option>
+  </select>
+  </div>
+
+<!---  Conteúdo para Mobile ----------------------------------------------------------------------------------------------------------------------------------------------------->  
+
+  <main class="ocultardesktop">
+
+      <div class="conteudomobile3">
+
+        <div class="conteudomobile4">
+          <img src="parque01.png" alt="" class="imgmobile">
+          <div>
+            <h1 class="conteudomobile5">10 parques para conhecer em São Paulo</h1>
+            <p class="conteudomobile6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At dignissimos incidunt minima deserunt optio commodi quo fugiat veritatis ullam dicta. Omnis illum dignissimos, tempore voluptatem dicta laborum recusandae voluptate nulla!</p>
+          </div>
+        </div>
+
+        <div class="conteudomobile7">
+          <img src="museuipiranga.png" alt="" class="imgmobile">
+          <div>
+            <h1 class="conteudomobile5">Os melhores museus de SP</h1>
+            <p class="conteudomobile6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At dignissimos incidunt minima deserunt optio commodi quo fugiat veritatis ullam dicta. Omnis illum dignissimos, tempore voluptatem dicta laborum recusandae voluptate nulla!</p>
+          </div>
+        </div>
+        
+<!--- Artigo Popular Post para Mobile ------------------------------------------------------------------------------------------------------------------------------------------->  
+
+    <div class="conteudomobile8">
+
+    <article class="artigos">
+      
+        <div class="popular-posts" class="conteudomobile9">
+
+          <h3>Popular Posts</h3>
+    
+          <div class="post">
+            <img src="https://via.placeholder.com/40" alt="Denim">
+            <div class="post-content">
+              <h4>Dfgdf</h4>
+              <p>Segfdgdf</p>
+            </div>
+          </div>
+
+          <div class="post">
+            <img src="https://via.placeholder.com/40" alt="Sweaters">
+            <div class="post-content">
+              <h4>Swefdgfdfggfers</h4>
+              <p>Praesfsgsfsdd</p>
+          </div>
+
+        </div>
+
+        <div class="post">
+          <img src="https://via.placeholder.com/40" alt="Workshop">
+          <div class="post-content">
+            <h4>Worfdgdf</h4>
+            <p>Ultricfgdfgdgue</p>
+          </div>
+        </div>
+
+        <div class="post">
+          <img src="https://via.placeholder.com/40" alt="Trends">
+          <div class="post-content">
+            <h4>Trefddgds</h4>
+            <p>Lorefgdgdf</p>
+          </div>
+        </div>  
+
+    </div>
+  
+    </article>
+
+<!--- Artigo de inscrição para Mobile ------------------------------------------------------------------------------------------------------------------------------------------->  
+  
+    <article class="artigos">
+        
+      <div class="subscribe-box">
+      
+        <h3>Inscrição</h3>
+        
+        <div class="subscribe-content">
+          <p class="artigoespacamento">Insira seu e-mail abaixo e receba notificações sobre as últimas postagens do blog.</p>
+          <input type="email" placeholder="E-mail">
+          <button class="inscrever" style="margin-bottom: 20px; margin-top: 20px;">Inscrever</button>
+        </div>
+
+      </div>
+      
+    </article>
+
+    </div>
+
+
+  </main>
+
+<!---  Footer ------------------------------------------------------------------------------------------------------------------------------------------------------------------->  
+
+  <footer class="rodape">
+    <img src="facebook.png" alt="" class="icon1">
+    <img src="instagram.png" alt="" class="icon2">
+    <img src="youtube.png" alt="" class="icon3">
+  </footer>
+
+<!---  JS ----------------------------------------------------------------------------------------------------------------------------------------------------------------------->  
+
+  <script>
+    function toggleResponsiveMenu() {
+      const menu = document.querySelector('#responsive-nav .responsive-menu');
+      menu.classList.toggle('show');
+    }
+  </script>
+
+</body>
+</html>
