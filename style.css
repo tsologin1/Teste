@@ -1,0 +1,637 @@
+
+    body{
+      background-image: url(vintage.PNG);
+      
+    }
+
+    
+  /* NAVEGAÇÃO --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+  nav {
+      margin-top: 30px;
+      margin-left: 29px;
+      margin-right: 29px;
+      padding: 0;
+    }
+
+    nav ul {
+      display: flex;
+      background-color: black;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin: 0;
+      list-style: none;
+    }
+
+    .mymenu {
+      margin-right: 30px;
+      text-decoration: none;
+      color: white;
+      transition: color 0.3s ease, border-bottom 0.3s ease;
+      padding-bottom: 3px;
+    }
+
+    /* efeito hover */
+    .mymenu:hover {
+      color: rgb(192, 186, 186);
+    }
+
+    form {
+      position: relative;
+
+    }
+
+    .navegacao{
+      display: flex; gap: 15px;
+    }
+
+/* Responsivo */
+
+    @media (max-width: 1150px) {
+      .responsive-hamburger {
+        display: block;
+      }
+
+      .responsive-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        padding: 0;
+      }
+
+      .responsive-menu li {
+        margin: 10px 0;
+        text-align: center;
+      }
+
+      .responsive-menu li form {
+        justify-content: center;
+      }
+
+      .responsive-menu.show {
+        display: flex;
+      }
+    }
+
+      #menucolorido{
+      margin-top: 15px;
+    }
+
+    .menucolorido2{
+      margin-left: 50px; margin-right: 50px;  list-style: none; background-color: white; color: black; padding: 15px; border-radius: 15px;  border: solid 1px black;
+    }
+
+        /* Menu colorido */
+    .menucolorido{
+      display: flex; align-items: center; justify-content: center; text-decoration: none;
+    }
+
+/* Barra de pesquisa -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    body {
+    
+      font-family: Arial, sans-serif;
+    }
+
+    /* NAV */
+    nav {
+      background-color: black;
+      padding: 10px 20px;
+    }
+
+
+    .efeito:HOVER{
+      background-color: rgb(86, 86, 247);
+    }
+
+    nav ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; /* separa menu à esquerda e form à direita */
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      flex-wrap: wrap; /* permite quebrar linha se a tela for pequena */
+    }
+
+    nav li {
+      margin-right: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    /* FORM: alinhado à direita */
+    nav form {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    nav input[type="text"] {
+      padding: 5px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    nav input[type="submit"] {
+      padding: 6px 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #555;
+      color: white;
+      cursor: pointer;
+    }
+
+    /* RESPONSIVO */
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav form {
+        width: 100%;
+        justify-content: flex-start;
+        margin-top: 10px;
+      }
+
+      nav input[type="text"] {
+        width: 70%;
+      }
+    }
+    
+    input[type="text"] {
+      padding: 5px;
+    }
+
+    input[type="submit"] {
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+
+    /* Nav exclusivo */
+    #responsive-nav {
+      background-color: black;
+      margin-top: 1px;
+      margin-left: 1px;
+      margin-right: 1px;
+      padding: 10px;
+    }
+
+    .responsive-menu-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+    }
+
+    .responsive-menu {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .responsive-menu li {
+      margin-right: 30px;
+    }
+
+    .responsive-menu a {
+      text-decoration: none;
+      color: white;
+      padding-bottom: 3px;
+      transition: color 0.3s ease;
+    }
+
+    .responsive-menu a:hover {
+      color: rgb(192, 186, 186);
+    }
+
+    .responsive-menu form {
+      display: flex;
+    }
+
+    .responsive-menu input[type="text"] {
+      padding: 5px;
+    }
+
+    .responsive-menu input[type="submit"] {
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+
+    /* Hamburger */
+    .responsive-hamburger {
+      display: none;
+      font-size: 28px;
+      color: white;
+      cursor: pointer;
+    }
+
+  /* IMAGENS -------------------------------------------------------------------------------------------------------------------------------------------*/
+  
+   .imgparque{
+      width: 100%; height: 530px;
+    }
+
+    .imgmuseu{
+      width: 100%;
+    }
+  
+  /* BANNER -------------------------------------------------------------------------------------------------------------------------------------------*/
+  
+    #bannermobile{
+      display: flex; align-items: center; justify-content: center; margin-left: 1px; margin-right: 1px
+    }
+
+    #bannerimg1{
+      width: 100%; border: 1px solid black;
+    }
+
+    #bannerimg2{
+      width: 100%; border: 1px solid black;
+    }
+
+    #bannerdesktop{
+      display: flex; align-items: center; justify-content: center; margin-left: 30px; margin-right: 30px
+    }
+
+  /* ARTIGO: POPULAR POST ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+  .popular-posts {
+    width: 380px;
+    height: 300px;
+    border: 1px solid #302f2f; /* ✅ borda de 1px adicionada */
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+
+  .popular-posts h3 {
+    background-color: #3d3d3d;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .post {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #eee;
+  }
+
+  .post img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+
+  .post-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .post-content h4 {
+    margin: 0;
+    font-size: 14px;
+    color: #003366;
+  }
+
+  .post-content p {
+    margin: 0;
+    font-size: 12px;
+    color: #555;
+  }
+
+  .artigodesktop{
+     margin-left: 15px; 
+  }
+
+  /* ARTIGO: INCRIÇÃO ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+* {
+    box-sizing: border-box; /* ✅ evita estouro de altura */
+  }
+
+ .subscribe-box {
+    width: 400px;
+    height: 210px;
+    border: 1px solid #000; /* ✅ borda de 1px adicionada */
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+
+  .subscribe-box h3 {
+    background-color: #3d3d3d;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .subscribe-box p {
+    padding: 15px;
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+  }
+
+  .subscribe-box input[type="email"] {
+    width: 92.5%;
+    margin: 0 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+  }
+
+  .subscribe-box button {
+    display: block;
+    width: calc(100% - 30px);
+    margin: 15px;
+    padding: 10px;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .subscribe-box button:hover {
+    background-color: #d32f2f;
+  }
+
+    /* -Elementos ocultos para desktop --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+    @media (min-width:1289px){
+      .ocultardesktop{
+        display: none;
+      }
+    }
+
+    /* Elementos ocultos para mobile ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+        @media (max-width: 1290px){
+          .ocultar, #ocultar1, #ocultar2, #ocultar3, #ocultar4, #ocultar5{
+            display: none;
+          }
+        }
+
+    /* Artigos ocultos ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+        @media (min-width:440px) {
+          .artigos{
+            display: none;
+          }
+        }
+
+    /* Artigos responsivos --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+    @media (max-width: 1150px) {
+
+      /* Popular Posts */
+      .popular-posts {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin: 1px auto 1px auto; /* margem de 1px em cima e embaixo, centralizado */
+        border: 1px solid #302f2f;
+        background-color: #f9f9f9;
+        border: solid 1 px black;
+      }
+
+      .popular-posts h3 {
+        font-size: 4vw;
+        text-align: center;
+      }
+
+      .post img {
+        width: 50px;
+        height: 50px;
+      }
+
+      .post-content h4 {
+        font-size: 3.8vw;
+      }
+
+      .post-content p {
+        font-size: 3.3vw;
+      }
+
+      /* ARTIGO DE INSCRIÇÃO --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+      .subscribe-box {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin: 1px auto 1px auto; /* margem de 1px em cima e embaixo */
+      }
+
+      .subscribe-box h3 {
+        font-size: 4vw;
+        text-align: center;
+      }
+
+      .subscribe-box p {
+        font-size: 3.5vw;
+        padding: 10px;
+      }
+
+      .subscribe-box input[type="email"],
+      .subscribe-box button {
+        width: calc(100% - 30px);
+        margin: 1px 15px; /* margem de 1px em cima e embaixo */
+        font-size: 3.5vw;
+      }
+
+      .subscribe-box button {
+        padding: 10px;
+      }
+    }
+
+    
+      .artigoespacamento{
+        padding: 20px
+      }
+
+     
+      .inscrever{
+        margin-bottom: 15px; margin-top: 15px; 
+      }
+
+    /* Footer mobile -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+    .rodape {
+        background-color: black;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      /* Quando a largura da tela for até 1150px */
+      @media (max-width: 1150px) {
+        .rodape {
+          margin: 1px;
+        }
+      }
+
+       .icon1{
+        width: 30px; margin-right: 30px;
+      }
+
+      .icon2{
+        width: 30px;
+      }
+
+      .icon3{
+        width: 30px; margin-left: 30px;
+      }
+
+
+    
+    /* Titulo para você em SP */
+    .titulo{
+      color:white; 
+      text-decoration:none;
+    }
+
+ 
+ 
+
+    main{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    /* #ocultar1{
+      background-color: rgb(255, 143, 45);
+    }
+
+    #ocultar2{
+      background-color: rgb(255, 71, 132);
+    }
+
+    #ocultar3{
+      background-color: greenyellow;
+    }
+
+    #ocultar4{
+      background-color: rgb(194, 83, 194);
+    }
+
+    #ocultar5{
+      background-color: rgb(43, 137, 226); 
+    } */
+
+    #conteudodesktop{
+      margin-top: 80px; margin-bottom: 50px;
+    }
+
+    .conteudodesktop2{
+      display: flex;
+    }
+
+    .conteudodesktop3{
+      display: block;
+    }
+
+    .conteudodesktop4{
+      width: 800px; height: 700px; background-color: white; margin-left: 30px; border: solid 1px black;
+    }
+
+   
+
+    .conteudodesktop5{
+      width: 800px; height: 700px; background-color: white; margin-left: 30px; margin-top: 30px;  border: solid 1px black;
+    }
+
+    .conteudodesktop6{
+      display: block;
+    }
+
+    .conteudodesktop7{
+      margin-left: 15px; margin-top: 20px;
+    }
+
+    #conteudomobile{
+      display: flex; align-items: center; justify-content: center; position: relative; bottom: 15px;
+    }
+
+    #conteudomobile{
+      padding: 7px;
+    }
+
+    .conteudomobile3{
+      display: block;
+    }
+
+    .conteudomobile4{
+      width: 100%;  background-color: white; border: solid 1px black; margin-bottom: 15px;
+    }
+
+    .imgmobile{
+      width: 100%;
+    }
+
+    .conteudomobile5{
+      font-size: 5vw; margin-left: 20px;
+    }
+
+    .conteudomobile6{
+      margin:20px; margin-bottom: 20px; 
+    }
+
+    .conteudomobile7{
+      width: 100%;  background-color: white; border: solid 1px black; margin-bottom: 15px;
+    }
+
+    .conteudodesktop8{
+      display: block;
+    }
+
+    .conteudomobile9{
+      border: solid 1 px black;
+    }
+
+    .artigos{
+      margin-top: 15px; margin-bottom: 15px;
+    }
+
+    .espacamento{
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
+
+  
